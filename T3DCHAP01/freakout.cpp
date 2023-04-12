@@ -9,7 +9,7 @@
 #include <windowsx.h> 
 #include <mmsystem.h>
 
-#include <iostream.h>       // include important C/C++ stuff
+#include <iostream>       // include important C/C++ stuff
 #include <conio.h>
 #include <stdlib.h>
 #include <malloc.h>
@@ -29,8 +29,8 @@
 // defines for windows 
 #define WINDOW_CLASS_NAME "WIN3DCLASS"  // class name
 
-#define WINDOW_WIDTH            640     // size of window
-#define WINDOW_HEIGHT           480
+//#define WINDOW_WIDTH            800     // size of window
+//#define WINDOW_HEIGHT           600
 
 // states for game loop
 #define GAME_STATE_INIT         0

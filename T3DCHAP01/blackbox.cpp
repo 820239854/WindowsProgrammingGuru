@@ -9,7 +9,7 @@
 #include <windowsx.h> 
 #include <mmsystem.h>
 
-#include <iostream.h>        // include important C/C++ stuff
+#include <iostream>        // include important C/C++ stuff
 #include <conio.h>
 #include <stdlib.h>
 #include <malloc.h>
@@ -77,6 +77,9 @@ if (lpdd->SetCooperativeLevel(main_window_handle,
            DDSCL_ALLOWMODEX | DDSCL_FULLSCREEN | 
            DDSCL_EXCLUSIVE | DDSCL_ALLOWREBOOT)!=DD_OK)
     return(0);
+
+//if (lpdd->SetCooperativeLevel(main_window_handle,DDSCL_NORMAL) != DD_OK)
+//    return(0);
 
 // set the display mode
 if (lpdd->SetDisplayMode(width,height,bpp,0,0)!=DD_OK)

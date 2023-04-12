@@ -7,9 +7,9 @@
 // DEFINES ////////////////////////////////////////////////////
 
 // default screen size
-#define SCREEN_WIDTH    640  // size of screen
-#define SCREEN_HEIGHT   480
-#define SCREEN_BPP      8    // bits per pixel
+#define SCREEN_WIDTH    800  // size of screen
+#define SCREEN_HEIGHT   600
+#define SCREEN_BPP      16    // bits per pixel
 #define MAX_COLORS      256  // maximum colors
 
 // MACROS /////////////////////////////////////////////////////
